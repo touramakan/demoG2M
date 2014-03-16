@@ -11,7 +11,6 @@ public class MeetingExtended extends Meeting {
 	private String duration;
 	private String joinURL;
 	private String meetingid;
-	private String conferenceCallInfo;
 
 	public MeetingExtended(){
 		super();
@@ -52,12 +51,6 @@ public class MeetingExtended extends Meeting {
 	}
 	public void setMeetingid(String meetingid) {
 		this.meetingid = meetingid;
-	}
-	public String getConferenceCallInfo() {
-		return conferenceCallInfo;
-	}
-	public void setConferenceCallInfo(String conferenceCallInfo) {
-		this.conferenceCallInfo = conferenceCallInfo;
 	}
 	
 }

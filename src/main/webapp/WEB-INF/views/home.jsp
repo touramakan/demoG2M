@@ -42,7 +42,7 @@
 								<td>${meetingExtended.organizerkey}</td>
 								<td>${meetingExtended.duration}</td>
 								<td>${meetingExtended.joinURL}</td>
-								<td>${meetingExtended.conferenceCallInfo}</td>
+								<td>${meetingExtended.conferencecallinfo}</td>
 								<td>${meetingExtended.meetingtype}</td>
 							</tr>
 						</c:forEach>
